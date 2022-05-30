@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator using jQuery</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="displayRow">
+            <input type="text" class="display" value="0" disabled>
+            <input type="text" class="currentDisplay" value="" disabled>
+        </div>
+        <div class="sixthRow">
+            <button class="equals">=</button>
+        </div>
+        <div class="fifthRow numRow">
+            <button class="percentage">%</button>
+            <button class="clearEntry">CE</button>
+            <button class="clear" id="clears">C</button>
+            <button class="backSpace"><i class="material-icons">backspace</i></button>
+        </div>
+        <div class="fourthRow numRow">
+            <button class="buttonNum">7</button>
+            <button class="buttonNum">8</button>
+            <button class="buttonNum">9</button>
+            <button class="divide">/</button>
+        </div>
+        <div class="thirdRow numRow">
+            <button class="buttonNum">4</button>
+            <button class="buttonNum">5</button>
+            <button class="buttonNum">6</button>
+            <button class="times">*</button>
+        </div>
+        <div class="secondRow numRow">
+            <button class="buttonNum">1</button>
+            <button class="buttonNum">2</button>
+            <button class="buttonNum">3</button>
+            <button class="minus">-</button>
+        </div>
+        <div class="firstRow numRow">
+            <button class="plusMinus">+/-</button>
+            <button class="buttonNum">0</button>
+            <button class="coma">.</button>
+            <button class="plus">+</button>
+        </div>
+    </div>
+</body>
+
+</html>
